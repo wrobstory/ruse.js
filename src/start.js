@@ -1,1 +1,1 @@
-ruse = (function(){
+(function( global ){

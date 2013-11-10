@@ -1,3 +1,4 @@
   ruse.version = "0.1.0";
-  return ruse;
-})();
+  // expose ruse as a global constructor
+  global.ruse = ruse;
+})( this );
